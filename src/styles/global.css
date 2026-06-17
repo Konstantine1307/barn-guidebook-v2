@@ -21,6 +21,7 @@ guide-navbar {
   view-transition-name: navbar;
   z-index: 999;
   isolation: isolate;
+  contain: layout paint;
 }
 
 /* Update this block to apply the duration and easing together */
