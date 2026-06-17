@@ -19,6 +19,8 @@
 /* Navbar stays stable across page transitions */
 guide-navbar {
   view-transition-name: navbar;
+  z-index: 999;
+  isolation: isolate;
 }
 
 /* Update this block to apply the duration and easing together */
