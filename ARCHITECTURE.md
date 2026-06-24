@@ -44,16 +44,12 @@ guidebook-template/
 │   │
 │   ├── scripts/
 │   │   ├── main.ts                ← SPA entry point (init router, components, PWA)
-│   │   ├── router.ts              ← History API router (client-side navigation)
-│   │   ├── layout.ts              ← legacy bootstrap (deprecated, use main.ts)
-│   │   └── *.ts                   ← legacy page entry points (deprecated)
+│   │   └── router.ts              ← History API router (client-side navigation)
 │   │
 │   ├── styles/
 │   │   └── global.css             ← full design system via CSS custom properties
 │   │
 │   ├── index.html                 ← single SPA shell (navbar, drawer, mount point)
-│   ├── _backup_html/              ← legacy HTML files (MPA backup)
-│   │   └── *.html                 ← old page shells (not used in SPA mode)
 │   └── vite-pwa.d.ts              ← type declaration for virtual:pwa-register
 │
 ├── public/
@@ -248,7 +244,7 @@ property        — name, title, subtitle, shortName, description, siteUrl,
 contact         — address, addressFull, email, homePhone, homePhoneHref,
                   contacts[], what3words, what3wordsUrl, mapEmbed,
                   directions[], parking { summary, detail[] }
-hero            — heading, body, navbarTitle
+hero            — heading, subheading, body, navbarTitle
 arrival         — checkIn, access, welcomePack, wifi (each: summary + detail[])
 houseManual     — intro, facilities[] { id, icon, title, summary, detail[], links? }
 departure       — label, title, intro, items[] { id, icon, title, summary, detail[] }
