@@ -434,13 +434,14 @@ dialog::backdrop {
   color: white;
 }
 
+
 .hero-content h1 span {
   white-space: nowrap;
   color: var(--color-primary);
 }
 
 .hero-content .subheading {
-  max-width: 24rem;
+  max-width: 28rem;
   margin-bottom: 0 auto 1.25rem;
 }
 
@@ -466,6 +467,7 @@ dialog::backdrop {
 
   .hero-content .subheading {
     font-size: 1.7rem;
+
   }
 }
 
